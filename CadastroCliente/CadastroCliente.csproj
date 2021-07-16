@@ -48,7 +48,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="System" />
+    <Reference Include="System">
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\System.dll</HintPath>
+    </Reference>
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -137,6 +139,13 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <DependentUpon>bdCad.mdf</DependentUpon>
     </Content>
+    <None Include="Resources\imagem.jpg" />
+    <None Include="Resources\imagenblogs2431241-768x3842.jpg" />
+    <None Include="Resources\imagenblogs2431241-768x3841.jpg" />
+    <None Include="Resources\imagenblogs2431241-768x384.jpg" />
+    <None Include="Resources\cqad1.png" />
+    <None Include="Resources\cqad.png" />
+    <None Include="Resources\cad.png" />
     <None Include="Resources\onderzoek-en-cijfers.png" />
     <None Include="Resources\add cadastro1.jpg" />
     <None Include="Resources\add cadastro.jpg" />
